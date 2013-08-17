@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TipCalculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="bill_total">Bill total</string>
+    <string name="proc10">10%</string>
+    <string name="proc15">15%</string>
+    <string name="proc20">20%</string>
+    <string name="tip">Tip</string>
+    <string name="zero">0.0</string>
+    <string name="total">Total</string>
+    <string name="custom">Custom</string>
+
+</resources>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:stretchColumns="1,2,3"
+    android:padding="5dp" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textBillTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/bill_total"
+            android:textColor="#000"
+            android:paddingRight="5dp"
+            android:gravity="right|center_vertical" />
+        
+        <EditText
+            android:id="@+id/editBillTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zero"
+            android:text="@string/zero"
+            android:gravity="center"
+            android:layout_span="3"
+            android:inputType="numberDecimal"
+            android:layout_weight="1" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/text10proc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/proc10"
+            android:layout_column="1"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/text15proc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/proc15"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/text20proc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/proc20"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_weight="1" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textTip"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/tip"
+            android:gravity="right|center_vertical"
+            android:paddingRight="5dp"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/editTip10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="@string/zero"
+            android:text="@string/zero"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:focusable="false"
+            android:longClickable="false"
+            android:cursorVisible="false"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/editTip15"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="@string/zero"
+            android:text="@string/zero"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:focusable="false"
+            android:longClickable="false"
+            android:cursorVisible="false"
+            android:layout_weight="1" />
+       
+        <EditText
+            android:id="@+id/editTip20"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="@string/zero"
+            android:text="@string/zero"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:focusable="false"
+            android:longClickable="false"
+            android:cursorVisible="false"
+            android:layout_weight="1" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="5dp"
+            android:gravity="right|center_vertical"
+            android:text="@string/total"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/editTotal10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="@string/zero"
+            android:text="@string/zero"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:focusable="false"
+            android:longClickable="false"
+            android:cursorVisible="false"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/editTotal15"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="@string/zero"
+            android:text="@string/zero"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:focusable="false"
+            android:longClickable="false"
+            android:cursorVisible="false"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/editTotal20"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="@string/zero"
+            android:text="@string/zero"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:focusable="false"
+            android:longClickable="false"
+            android:cursorVisible="false"
+            android:layout_weight="1" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textCustom"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/custom"
+            android:textColor="#000" />
+
+        <SeekBar
+            android:id="@+id/seekBarUserProc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="2"
+            android:progress="18"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="5dp"
+            android:focusable="false"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textUserTipProc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/zero"
+            android:textColor="#000"
+            android:gravity="center|center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:layout_weight="1" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textTipValue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="5dp"
+            android:gravity="right|center_vertical"
+            android:text="@string/tip"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/editTipValue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="@string/zero"
+            android:text="@string/zero"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:focusable="false"
+            android:longClickable="false"
+            android:cursorVisible="false"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textTotalValue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical"
+            android:paddingRight="5dp"
+            android:text="@string/total"
+            android:textColor="#000"
+            android:layout_weight="1" />
+        
+        <EditText
+            android:id="@+id/editTotalValue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="@string/zero"
+            android:text="@string/zero"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:focusable="false"
+            android:longClickable="false"
+            android:cursorVisible="false"
+            android:layout_weight="1" />
+
+    </TableRow>
+
+</TableLayout>
