@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TwitterSearch</string>
+    <string name="action_settings">Settings</string>
+    <string name="queryPrompt">Please enter query</string>
+    <string name="tagPrompt">Tag for query</string>
+    <string name="save">Save</string>
+    <string name="tagged_searches">Tagged searches</string>
+    <string name="clear_tags">Clear tags</string>
+    <string name="edit">Edit</string>
+    <string name="missingTitle">Warning</string>
+    <string name="ok">OK</string>
+    <string name="missingMessage">Some of input fields are empty</string>
+    <string name="confirmMess">Do you really want to clear all tags?</string>
+    <string name="confirmTitle">Warning</string>
+    <string name="erase">Erase</string>
+    <string name="cancel">Cancel</string>
+    <string name="searchUrl">http://search.twitter.com/search?q=</string>
+
+</resources>
