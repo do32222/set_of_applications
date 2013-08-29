@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">P0291_SimpleActivityResult</string>
+    <string name="action_settings">Settings</string>
+    <string name="textTo"></string>
+    <string name="btnRequest">Call name activity</string>
+    <string name="textFrom">Input full name</string>
+    <string name="sendToFirst">send to first activity</string>
+    <string name="editFullName">Mr Smith</string>
+
+</resources>

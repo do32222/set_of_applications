@@ -1,0 +1,59 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inputName"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center" />
+    
+    <TableRow 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tabRow0"
+        android:weightSum="10">
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/firstName" 
+            android:layout_weight="3"/>
+        
+        <EditText 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/john"
+            android:layout_weight="7"
+            android:id="@+id/editFirstName" />
+    </TableRow>
+    
+    <TableRow>
+		<TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/secondName" 
+            android:layout_weight="3"/>
+        
+        <EditText 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/smith"
+            android:layout_weight="7"
+            android:id="@+id/editSecondName" />       
+        
+    </TableRow>
+
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSubmit"
+        android:text="@string/submit"/>
+    
+</TableLayout>
