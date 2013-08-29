@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ASyncRSS</string>
+    <string name="action_settings">Settings</string>
+    <string name="list_isFilling">The list is filling...</string>
+    <string name="list_complited">Building a list is complited</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">P0331_SharedPreferences</string>
+    <string name="action_settings">Settings</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+    <string name="anySymbols">Enter any symbols</string>
+
+</resources>
