@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   	android:padding="5dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical" 
+    android:id="@+id/layout">
+
+    <WebView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/browser" >
+        
+    </WebView>
+    
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAMPAM"
+        android:id="@+id/btn"/>
+
+</LinearLayout>

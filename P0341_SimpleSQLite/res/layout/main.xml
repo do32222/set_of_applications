@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout 
+        android:layout_width = "fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="20">
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/id"
+            android:gravity="center_horizontal"/>
+        
+        <EditText 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:hint="@string/zero"
+            android:id="@+id/editId"/>
+        
+        <Button 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="@string/update"
+            android:id="@+id/btnUpdate"/>
+        
+        <Button 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="@string/delete"
+            android:id="@+id/btnDelete"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="20">
+        
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:text="@string/textName"
+            android:gravity="center_horizontal"/>
+        
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="16" 
+            android:hint="@string/john"
+            android:id="@+id/editName"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="20" >
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/textEmail"
+            android:gravity="center_horizontal"/>
+        
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="16"
+            android:hint="@string/email"
+            android:id="@+id/editEmail" />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+        
+        <Button 
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:id="@+id/btnAdd" />
+        
+        <Button 
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/read"
+            android:id="@+id/btnRead" />
+        
+        <Button 
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/clear"
+            android:id="@+id/btnClear" />
+    </LinearLayout>
+    
+</LinearLayout>
